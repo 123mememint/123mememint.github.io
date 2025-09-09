@@ -1,3 +1,3 @@
-# 123mememint.github.io
+# index.html
 
 THIS IS NOT A REAL WEBSITE IT IS FOR A CLASS PROJECT
