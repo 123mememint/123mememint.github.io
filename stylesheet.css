@@ -1,0 +1,92 @@
+.nav {
+    background-color: black; /* Black background for the entire bar */
+    overflow: hidden; /* Clear floats */
+    padding: 10px 0; /* Add some vertical padding */
+}
+
+/* Navigation Links */
+.nav a {
+  float: left; /* Align links horizontally */
+  color: white; /* White text color for links */
+  text-align: center;
+  padding: 14px 16px; /* Padding around link text */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 17px;
+}
+
+/* Hover effect for links */
+.nav a:hover {
+  background-color: #333; /* Slightly lighter black on hover */
+  color: white; /* Keep text white on hover */
+}
+
+/* Active/Current link styling (optional) */
+.nav a.active {
+  background-color: white; /* White background for the active link */
+  color: black; /* Black text for the active link */
+}
+
+.foot {
+    padding: 30px;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full viewport height */
+    background-color: #000; /* black background */
+    color: #fff;            /* default text color white */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;            /* white headings */
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+/* Paragraphs */
+p {
+    color: #ccc;            /* light gray text for readability */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    padding: 40px;
+
+    max-width: 600px;   /* limits how wide the paragraph can get */
+    margin-left: 0;     /* aligns left */
+    margin-right: auto; /* keeps extra space on the right */
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #fff; /* white button */
+    color: #000;            /* black text */
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+    margin-left: 50px;
+}
+
+button:hover, .btn:hover {
+    background-color: #ccc; /* slightly darker on hover */
+}
+
+.content {
+    flex: 1; /* takes up remaining space */
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #111; /* slightly different black for contrast */
+    padding: 20px;
+    text-align: center;
+    color: #ccc;
+}
+
